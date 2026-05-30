@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <title>Estrato Legal Consultores | Defensa Administrativa y Fiscal</title>
 
 <meta name="description" content="Defensa administrativa y fiscal especializada en SAT, IMSS, INFONAVIT, INVEA, Alcaldías y Tesorería CDMX.">
@@ -136,11 +136,19 @@ border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:30px;
-color:white;
 text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,.3);
 z-index:999;
+transition:.3s;
+}
+
+.whatsapp i{
+font-size:38px;
+color:#fff;
+}
+
+.whatsapp:hover{
+transform:scale(1.08);
 }
 
 @media(max-width:768px){
@@ -1704,8 +1712,9 @@ Términos y Condiciones
 <a
 class="whatsapp"
 href="https://wa.me/525627308345"
-target="_blank">
-✆
+target="_blank"
+aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
 </a>
 
 </body>
