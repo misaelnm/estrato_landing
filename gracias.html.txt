@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Solicitud Recibida | Estrato Legal Consultores</title>
+
+<style>
+
+:root{
+--azul:#0C486D;
+--azul-hover:#083854;
+--gris:#f5f7fa;
+--texto:#1f2937;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:var(--gris);
+color:var(--texto);
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:30px;
+}
+
+.logo{
+max-width:280px;
+display:block;
+margin:40px auto;
+}
+
+.card{
+background:#fff;
+padding:50px;
+border-radius:16px;
+box-shadow:0 10px 40px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.check{
+width:90px;
+height:90px;
+margin:auto;
+border-radius:50%;
+background:#e8f5e9;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:48px;
+margin-bottom:25px;
+}
+
+h1{
+color:var(--azul);
+margin-bottom:20px;
+font-size:2.3rem;
+}
+
+p{
+font-size:1.1rem;
+line-height:1.7;
+margin-bottom:20px;
+}
+
+.urgencia{
+margin-top:35px;
+padding:25px;
+background:#f8fafc;
+border-left:5px solid var(--azul);
+text-align:left;
+border-radius:8px;
+}
+
+.urgencia h3{
+color:var(--azul);
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+background:var(--azul);
+color:white;
+padding:18px 40px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:var(--azul-hover);
+transform:translateY(-2px);
+}
+
+.pasos{
+margin-top:50px;
+text-align:left;
+}
+
+.pasos h2{
+text-align:center;
+color:var(--azul);
+margin-bottom:25px;
+}
+
+.paso{
+background:white;
+padding:20px;
+margin-bottom:15px;
+border-radius:10px;
+box-shadow:0 3px 15px rgba(0,0,0,.05);
+}
+
+footer{
+text-align:center;
+padding:40px 20px;
+font-size:.9rem;
+}
+
+footer a{
+text-decoration:none;
+color:var(--azul);
+margin:0 10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+z-index:999;
+}
+
+@media(max-width:768px){
+
+.card{
+padding:30px;
+}
+
+h1{
+font-size:1.8rem;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" alt="Estrato Legal Consultores" class="logo">
+
+<div class="card">
+
+<div class="check">
+✓
+</div>
+
+<h1>Hemos recibido su solicitud</h1>
+
+<p>
+Gracias por confiar en Estrato Legal Consultores.
+</p>
+
+<p>
+Uno de nuestros especialistas revisará la información proporcionada y se pondrá en contacto con usted a la brevedad.
+</p>
+
+<div class="urgencia">
+
+<h3>Importante</h3>
+
+<p>
+Si su asunto involucra una clausura, embargo, crédito fiscal, requerimiento o procedimiento administrativo en curso, el tiempo puede ser determinante para la estrategia jurídica.
+</p>
+
+</div>
+
+<a href="https://wa.me/525627308345" class="btn" target="_blank">
+
+Hablar con un abogado ahora
+
+</a>
+
+</div>
+
+<div class="pasos">
+
+<h2>¿Qué sigue?</h2>
+
+<div class="paso">
+✅ Revisaremos su información.
+</div>
+
+<div class="paso">
+✅ Evaluaremos posibles riesgos y alternativas jurídicas.
+</div>
+
+<div class="paso">
+✅ Le contactaremos para una orientación inicial.
+</div>
+
+<div class="paso">
+✅ Diseñaremos una estrategia de defensa personalizada.
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+Monte Albán, Alcaldía Benito Juárez, Ciudad de México
+</p>
+
+<p>
+<a href="aviso-de-privacidad.html">Aviso de Privacidad</a>
+|
+<a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+</p>
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/525627308345"
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</body>
+</html>
