@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Estrato Legal Consultores | Defensa Administrativa y Fiscal</title>
+
+<meta name="description" content="Defensa administrativa y fiscal especializada en SAT, IMSS, INFONAVIT, INVEA, Alcaldías y Tesorería CDMX.">
+
+<style>
+
+:root{
+--azul:#0C486D;
+--gris:#CFCFCF;
+--oscuro:#1F2937;
+--blanco:#ffffff;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+color:var(--oscuro);
+line-height:1.6;
+background:#fff;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+padding:25px 0;
+text-align:center;
+background:#fff;
+}
+
+.logo{
+max-width:280px;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:#f7f8fa;
+}
+
+.hero h1{
+font-size:3rem;
+color:var(--azul);
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:850px;
+margin:auto;
+font-size:1.2rem;
+}
+
+.cta{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+background:var(--azul);
+color:white;
+padding:15px 30px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn:hover{
+opacity:.9;
+}
+
+section{
+padding:70px 20px;
+}
+
+h2{
+text-align:center;
+color:var(--azul);
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.contacto{
+background:#f7f8fa;
+}
+
+footer{
+text-align:center;
+padding:30px;
+font-size:.9rem;
+background:white;
+}
+
+footer a{
+color:var(--azul);
+text-decoration:none;
+margin:0 10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+color:white;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+z-index:999;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2rem;
+}
+
+.hero p{
+font-size:1rem;
+}
+
+.btn{
+width:100%;
+max-width:320px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<!-- SUSTITUIR POR TU LOGO -->
+<img src="logo.png" alt="Estrato Legal Consultores" class="logo">
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>
+¿Recibió un requerimiento, embargo, clausura o crédito fiscal?
+</h1>
+
+<p>
+Defendemos su patrimonio frente a SAT, IMSS, INFONAVIT, INVEA, Alcaldías, Tesorería CDMX y demás autoridades administrativas.
+</p>
+
+<div class="cta">
+
+<a href="#contacto" class="btn">
+Solicitar Diagnóstico Jurídico
+</a>
+
+<a href="https://wa.me/525627308345" class="btn">
+WhatsApp Inmediato
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>Sabemos lo que está en riesgo</h2>
+
+<div class="grid">
+
+<div class="card">Clausuras</div>
+
+<div class="card">Embargos</div>
+
+<div class="card">Créditos fiscales</div>
+
+<div class="card">SAT</div>
+
+<div class="card">IMSS</div>
+
+<div class="card">INFONAVIT</div>
+
+<div class="card">INVEA</div>
+
+<div class="card">PAOT</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>¿Por qué elegirnos?</h2>
+
+<div class="grid">
+
+<div class="card">Más de 16 años de experiencia.</div>
+
+<div class="card">Atención personalizada.</div>
+
+<div class="card">Defensa preventiva y correctiva.</div>
+
+<div class="card">Estrategias jurídicas efectivas.</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contacto" class="contacto">
+
+<div class="container">
+
+<h2>Solicite una evaluación de su caso</h2>
+
+<!-- PEGAR AQUÍ EL CÓDIGO DE BREVO -->
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Monte Albán, Alcaldía Benito Juárez, Ciudad de México
+</p>
+
+<p>
+
+<a href="aviso-de-privacidad.html">
+Aviso de Privacidad
+</a>
+
+|
+
+<a href="terminos-y-condiciones.html">
+Términos y Condiciones
+</a>
+
+</p>
+
+</footer>
+
+<a
+class="whatsapp"
+href="https://wa.me/525627308345"
+target="_blank">
+✆
+</a>
+
+</body>
+</html>
